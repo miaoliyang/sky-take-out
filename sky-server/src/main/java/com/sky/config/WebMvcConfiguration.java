@@ -1,6 +1,6 @@
 package com.sky.config;
 
-import com.sky.config.interceptor.JwtTokenAdminInterceptor;
+import com.sky.interceptor.JwtTokenAdminInterceptor;
 import com.sky.json.JacksonObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

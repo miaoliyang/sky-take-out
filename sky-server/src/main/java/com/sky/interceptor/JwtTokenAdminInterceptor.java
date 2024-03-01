@@ -1,4 +1,4 @@
-package com.sky.config.interceptor;
+package com.sky.interceptor;
 
 import com.sky.constant.JwtClaimsConstant;
 import com.sky.context.BaseContext;
