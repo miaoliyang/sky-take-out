@@ -6,3 +6,10 @@ sky:
     database: sky_take_out
     username: root
     password: messi123000
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5t96AewwvrFhLDoHuap6
+    access-key-secret: jKayg6fznfSYpkp9vcFuaKrhJBZLII
+    bucket-name: web-cangqwm
+
