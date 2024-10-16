@@ -41,8 +41,12 @@ public class CategoryServiceImpl implements CategoryService {
      */
     public void save(CategoryDTO categoryDTO) {
         Category category = new Category();
-        //属性拷贝
-        BeanUtils.copyProperties(categoryDTO, category);
+        
+        category.setID(categoryDTOP.getID());
+        category.setName(categoryDTOP.getName());
+        category.setType(categoryDTOP.getType());
+        category.setSort(categoryDTOP.getSort());
+        
 
         //分类状态默认为禁用状态0
         category.setStatus(StatusConstant.DISABLE);
